@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+recordings/*
+!recordings/.gitkeep
+logs/*
+!logs/.gitkeep
+*.wav
+*.mp3
+*.flac

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" translate="no" class="notranslate">
+<head>
+  <meta charset="utf-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <title>Voice Pi</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body class="notranslate">
+  <main class="screen">
+    <header class="top">
+      <span id="statusDot" class="dot"></span>
+      <strong class="title">Voice Pi</strong>
+      <strong id="badge" class="badge">IDLE</strong>
+    </header>
+
+    <section class="status">
+      <div id="stateText" class="state">READY</div>
+      <div id="timer" class="timer">00:00:00</div>
+    </section>
+
+    <section class="buttons">
+      <button id="startButton" class="btn start" type="button">
+        <span class="symbol">●</span>
+        <span>START</span>
+      </button>
+      <button id="stopButton" class="btn stop" type="button">
+        <span class="symbol">■</span>
+        <span>STOP</span>
+      </button>
+    </section>
+
+    <div id="toast" class="toast" hidden></div>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
